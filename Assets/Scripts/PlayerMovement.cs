@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 //attach onto sprite (player image) in order for code to be used and allow adjustment for speed to be used
 public class PlayerMovement : MonoBehaviour {
-     public float speed = 0f; 
+    public float speed = 0f;
     
     void Update() //calls for update every frame
     {
