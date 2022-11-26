@@ -10,6 +10,7 @@ public class ConsumableItem : Item
     HEALTH,
     MANA
   }
+  public ConsumableType _type;
 
   // When a consumable is used, we will use this to determine whether the consumable should
   // add to the variable as a flat or percentage
@@ -17,8 +18,6 @@ public class ConsumableItem : Item
     FLAT,
     PERCENTAGE
   }
-
-  public ConsumableType _type;
   public ConsumableAmountType _amountType;
 
   // The amount the consumable improves, will be added based on the ConsumableAmountType 
