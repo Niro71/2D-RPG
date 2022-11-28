@@ -14,4 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   icon: {fileID: 0}
-  tier: 0
+  tier: 1
+  inventorySlot: 0
+  equippableStats:
+  - _type: 0
+    _amountType: 0
+    amount: 0

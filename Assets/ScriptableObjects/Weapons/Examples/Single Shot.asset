@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8b0913ed063144e9d6100f4262531f, type: 3}
+  m_Name: Single Shot
+  m_EditorClassIdentifier: 
+  itemName: 'Example: Single Shot'
+  icon: {fileID: 21300000, guid: bb309f271b62232458e034a03f20599e, type: 3}
+  tier: 1
+  inventorySlot: 0
+  equippableStats: []
+  minBaseDamage: 1
+  maxBaseDamage: 3
+  bullet: {fileID: 5114550379895900342, guid: bfeef53912ba1db4f96fb86f4659291c, type: 3}
+  bulletSpeed: 10
